@@ -1,0 +1,6 @@
+*.log
+**/__pycache__
+.pytest_cache/*
+qrcode
+nohup.out
+.env
