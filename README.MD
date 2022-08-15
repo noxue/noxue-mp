@@ -14,5 +14,5 @@ pip3 install python-dotenv
 ### 运行
 ```
 mkdir qrcode
-uvicorn app:app --env-file=.env 
+nohup uvicorn app:app --env-file=.env --host=127.0.0.1 --port=8001 --workers=4 &
 ```
