@@ -4,6 +4,7 @@ import os
 WINXIN_TOKEN = os.getenv('WINXIN_TOKEN')
 MP_APPID = os.getenv('MP_APPID')
 MP_APPSECRET = os.getenv('MP_APPSECRET')
+LOG_LEVEL = os.getenv('LOG_LEVEL')
 
 
 # WINXIN_TOKEN = 'weixinnoxue'
